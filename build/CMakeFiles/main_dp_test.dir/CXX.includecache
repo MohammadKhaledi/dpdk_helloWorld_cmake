@@ -1,0 +1,32 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+/home/user/Documents/khaledi/projects/dp_test/utils/main.cc
+stdio.h
+-
+string.h
+-
+stdint.h
+-
+errno.h
+-
+sys/queue.h
+-
+rte_memory.h
+-
+rte_launch.h
+-
+rte_eal.h
+-
+rte_per_lcore.h
+-
+rte_lcore.h
+-
+rte_debug.h
+-
+
